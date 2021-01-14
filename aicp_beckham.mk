@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common aicp stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -50,7 +50,7 @@ PRODUCT_PACKAGES += \
 
 # Device identifiers
 PRODUCT_DEVICE := beckham
-PRODUCT_NAME := lineage_beckham
+PRODUCT_NAME := aicp_beckham
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto Z3 Play
 PRODUCT_MANUFACTURER := motorola
@@ -60,3 +60,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="beckham-user 9 PPWS29.131-27-1-15 4d8b92 release-keys"
 
 BUILD_FINGERPRINT := motorola/beckham/beckham:9/PPWS29.131-27-1-15/4d8b92:user/release-keys
+
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Jeferson Oliveira (jro1979oliver)"
