@@ -567,7 +567,7 @@ vendor/bin/hw/motorola.hardware.health@1.0-service
 vendor/etc/init/motorola.hardware.health@1.0-service.rc
 
 # Moto Mods
--system/priv-app/ModFmwkProxyService/ModFmwkProxyService.apk|37a020b2350748a5f684870d652a1e3e31d8d1e2
+-system/priv-app/ModFmwkProxyService/ModFmwkProxyService.apk|5ed239fdcc6a92a9c4a17079cf3ebb4a15ed1ed2
 -system/priv-app/ModService/ModService.apk|c823ccd189721d1c39ba667e8a7d1151cdf88a8d
 -system/priv-app/ProjectorApp/ProjectorApp.apk|fd501856dc2f20a78397ef770cfe5f7a73ead9ca
 system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf
